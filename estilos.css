@@ -1,0 +1,81 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  max-width: 320px;
+  width: 100%;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  text-align: center;
+}
+
+.foto {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  border: 4px solid #e0e7ff;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.nombre {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.cargo {
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.botones {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-contactar {
+  background-color: #4f46e5;
+  color: #ffffff;
+}
+
+.btn-contactar:hover {
+  background-color: #4338ca;
+}
+
+.btn-portafolio {
+  background-color: #ffffff;
+  color: #4f46e5;
+  border: 2px solid #4f46e5;
+}
+
+.btn-portafolio:hover {
+  background-color: #eef2ff;
+}
